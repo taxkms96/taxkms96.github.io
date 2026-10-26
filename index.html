@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>미나이의 자동화 프로그램</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="홈택스·위하고·위택스 자동 로그인, 민원증명, 부가가치세 신고 자료, 4대보험 EDI 자료를 버튼 클릭 한 번으로. 20만 원 → 10만 원.">
+<meta name="description" content="홈택스·위하고·위택스 자동 로그인, 민원증명, 부가가치세 신고 자료, 4대보험 EDI 자료를 버튼 클릭 한 번으로. 선착순 다섯 분 특가 20만 원 → 10만 원.">
 <meta property="og:title" content="미나이의 자동화 프로그램">
-<meta property="og:description" content="바로 쓸 수 있는 프로그램을 드립니다. 클로드로 내 컴퓨터에 맞게 고쳐 쓰세요. 20만 원 → 10만 원">
+<meta property="og:description" content="바로 쓸 수 있는 프로그램을 드립니다. 클로드로 내 컴퓨터에 맞게 고쳐 쓰세요. 선착순 다섯 분 특가 20만 원 → 10만 원">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -68,7 +68,7 @@
   .buy { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
   .price { font-family: var(--f-display); font-size: 30px; line-height: 1; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .price .was { font-size: 20px; color: var(--ink-soft); text-decoration: line-through; text-decoration-thickness: 2px; }
-  .price .off { font: 700 13px/1 var(--f-body); color: var(--sale); border: 1.5px solid var(--sale); border-radius: 4px; padding: 5px 7px; align-self: center; }
+  .price .off { font: 700 13px/1 var(--f-body); color: var(--sale); border: 1.5px solid var(--sale); border-radius: 4px; padding: 5px 7px; align-self: center; white-space: nowrap; }
   .dock .was { text-decoration: line-through; opacity: .75; font-weight: 500; margin-right: 6px; }
   /* 휴대폰: 가격 한 줄, 단추는 그 아래 꽉 차게 */
   @media (max-width: 599px) { .buy .btn { order: 3; flex-basis: 100%; } }
@@ -205,7 +205,7 @@
     <h2>프로그램만 띡 주고<br>끝나지 않습니다.</h2>
     <p class="promise">1:1 카톡으로 완벽히 구동될 때까지 책임지겠습니다.<br>가격이 아깝지 않도록 최선을 다하겠습니다.</p>
     <div class="buy">
-      <div class="price"><span class="off">50% 할인</span><span class="was">20만 원</span><span>10만 원</span></div>
+      <div class="price"><span class="off">선착순 다섯 분 특가</span><span class="was">20만 원</span><span>10만 원</span></div>
       <a class="btn apply" href="#">구매 신청하기 <span class="arrow">→</span></a>
     </div>
   </div>
